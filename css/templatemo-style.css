@@ -61,7 +61,7 @@
 
   .landing h1 {
     font-size: 5.5em;
-    margin-bottom: 0;
+    margin: 0;
     color: #ffffff;
   }
   .royal {
@@ -207,7 +207,7 @@
 
   .custom-navbar .navbar-nav > li > a:hover,
   .custom-navbar .navbar-nav > li > a:focus {
-    background-color: transparent;
+    background-color: #eeeeee;
   }
 
   .custom-navbar .nav li a:hover {
@@ -226,12 +226,12 @@
   }
 
   .custom-navbar .navbar-toggle {
-    background-color: transparent;
+    background-color: #eeeeee;
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
     background: #252525;
-    border-color: transparent;
+    border-color: #aaaaaa;
   }
 
 
@@ -501,10 +501,15 @@
     font-size: 4em;
   }
   .landing {
-    padding: 0px;
-    padding-top: 100px;
+    padding: 100px 0 0 0;
+  }
   .parallax {
-    height: 600px;
+    height: 650px;
+  }
+  .footer {
+    margin: 0;
+    padding: 0;
+    text-align: left;
   }
 }
 
