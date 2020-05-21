@@ -502,7 +502,7 @@
   }
   .landing {
     padding: 0px;
-  }
+    padding-top: 100px;
   .parallax {
     height: 600px;
   }
