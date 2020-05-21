@@ -9,7 +9,12 @@
     padding-top: 70px;
   }
 
-
+  .parallax {
+    background: url(../images/slider-image4.jpg)  no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+  }
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
@@ -461,7 +466,7 @@
     }
 
     #home h3 {
-      font-size: 14px;
+      font-size: 10px;
     }
 
     .entry-form {
@@ -471,6 +476,13 @@
       max-height: 100%;
       width: inherit;
       height: inherit;
+    }
+
+    .landing h1 {
+      font-size: 4em;
+    }
+    .landing {
+      padding: 0px;
     }
   }
   @media only screen and (min-width: 1080px){
@@ -494,9 +506,5 @@
       }
 }
 
-.parallax {
-  background: url(../images/slider-image4.jpg)  no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 800px;
-}
+
+  
