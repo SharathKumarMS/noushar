@@ -477,13 +477,6 @@
       width: inherit;
       height: inherit;
     }
-
-    .landing h1 {
-      font-size: 4em;
-    }
-    .landing {
-      padding: 0px;
-    }
   }
   @media only screen and (min-width: 1080px){
     .logo {
@@ -503,8 +496,18 @@
   top:0px;
   width:50px;
   height:auto;
-      }
+  }
+  .landing h1 {
+    font-size: 4em;
+  }
+  .landing {
+    padding: 0px;
+  }
+  .parallax {
+    height: 600px;
+  }
 }
+
 
 
   
